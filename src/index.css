@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@theme {
+  /* color */
+  --color-*: initial;
+  --color-primary: rgba(114, 9, 183, 1);
+  --color-primary-50: rgba(114, 9, 183, 0.5);
+  --color-black-100: #353535;
+  --color-black-75: #676767;
+  --color-black-50: #989898;
+  --color-black-25: #dcdcdc;
+  --color-white: #ffffff;
+  --color-white-98: #fafafa;
+  --color-white-97: #f7f7f7;
+  --color-red: rgba(207, 0, 0, 1);
+  --color-blue: #0055ff;
+  --color-green: #00da16;
+
+  /* fonts */
+  --text-display: 32px;
+  --text-display--line-height: 48px;
+  --text-display--font-weight: 700;
+
+  --text-body-bold: 18px;
+  --text-body-bold--line-height: 27px;
+  --text-body-bold--font-weight: 700;
+
+  --text-body-medium: 18px;
+  --text-body-medium--line-height: 27px;
+  --text-body-medium--font-weight: 500;
+
+  --text-button: 15px;
+  --text-button--line-height: 22.5px;
+  --text-button--font-weight: 600;
+  --text-button--letter-spacing: 0.5px;
+}
