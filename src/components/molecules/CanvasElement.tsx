@@ -93,7 +93,7 @@ const CanvasElement: React.FC<Props> = ({
       onDragStart={() => setIsDragging(true)}
       onDragStop={(_, d) => onDragStop(d)}
       onResizeStop={onResize}
-      minWidth={100}
+      minWidth={150}
       minHeight={100}
       onClick={handleElementClick}
       onMouseEnter={onMouseEnter}
